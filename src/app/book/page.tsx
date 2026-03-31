@@ -102,11 +102,28 @@ export default function BookingFlow() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    setIsSubmitting(false);
-    setIsSuccess(true);
-    window.scrollTo(0, 0);
+    
+    try {
+      const res = await fetch('/api/book', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+      
+      if (!res.ok) {
+        throw new Error('Failed to submit booking');
+      }
+      
+      setIsSuccess(true);
+      window.scrollTo(0, 0);
+    } catch (error) {
+      console.error('Submission error:', error);
+      alert('There was an issue submitting your request. Please try again or contact us directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSuccess) {
