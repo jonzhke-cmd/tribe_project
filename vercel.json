@@ -5,5 +5,10 @@
   "framework": "nextjs",
   "cleanUrls": true,
   "trailingSlash": true,
-  "outputDirectory": "out"
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
 }
