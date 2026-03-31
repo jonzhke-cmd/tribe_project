@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, MapPin, Calendar, Clock, ChevronRight, Star, ShieldCheck, Zap, Plane } from "lucide-react";
+import { ArrowRight, ChevronRight, Star, ShieldCheck, Zap, Plane } from "lucide-react";
 import { fleet } from "@/app/data/fleet";
+import BookingBar from "@/components/BookingBar";
 
 export default function Home() {
   return (
@@ -30,29 +31,7 @@ export default function Home() {
 
             {/* Quick Booking Bar */}
             <div className="mt-12 w-full max-w-5xl">
-              <div className="glass-card flex flex-col gap-4 rounded-3xl p-4 md:flex-row md:items-center">
-                <div className="flex flex-1 flex-col gap-1 px-4 text-left border-b border-white/10 pb-4 md:border-b-0 md:border-r md:pb-0">
-                  <span className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-                    <MapPin className="h-3 w-3" /> Pickup Location
-                  </span>
-                  <span className="text-sm font-medium">Perth Airport T1-T4</span>
-                </div>
-                <div className="flex flex-1 flex-col gap-1 px-4 text-left border-b border-white/10 pb-4 md:border-b-0 md:border-r md:pb-0">
-                  <span className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-                    <Calendar className="h-3 w-3" /> Pickup Date
-                  </span>
-                  <span className="text-sm font-medium">Select Date</span>
-                </div>
-                <div className="flex flex-1 flex-col gap-1 px-4 text-left border-b border-white/10 pb-4 md:border-b-0 md:border-r md:pb-0">
-                  <span className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-slate-500">
-                    <Clock className="h-3 w-3" /> Return Date
-                  </span>
-                  <span className="text-sm font-medium">Select Date</span>
-                </div>
-                <Link href="/book" className="flex h-14 items-center justify-center rounded-2xl bg-primary px-8 font-bold text-white transition hover:bg-primary-hover">
-                  Find Your Car
-                </Link>
-              </div>
+              <BookingBar />
             </div>
 
             <div className="mt-12 flex items-center gap-8 opacity-60 grayscale filter">
