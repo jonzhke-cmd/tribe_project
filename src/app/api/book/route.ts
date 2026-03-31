@@ -8,15 +8,16 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
 const resendApiKey = process.env.RESEND_API_KEY || '';
 
-const supabase = createClient(supabaseUrl, supabaseKey);
-const resend = new Resend(resendApiKey);
+// Initialize clients conditionally so the build doesn't fail if env vars are missing
+const supabase = (supabaseUrl && supabaseKey) ? createClient(supabaseUrl, supabaseKey) : null;
+const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
 export async function POST(request: Request) {
   try {
     const data = await request.json();
 
     // 1. Save to Supabase
-    if (supabaseUrl && supabaseKey) {
+    if (supabase) {
       const { error: dbError } = await supabase
         .from('bookings')
         .insert([
@@ -47,7 +48,7 @@ export async function POST(request: Request) {
     }
 
     // 2. Send Email via Resend
-    if (resendApiKey) {
+    if (resend) {
       await resend.emails.send({
         from: 'AutoTrip Reservations <bookings@autotrip.com.au>', // Ensure this domain is verified in Resend
         to: [data.email, 'enquiry@autotrip.com.au'], // Send to customer and admin
