@@ -27,6 +27,7 @@ const nav = [
   { href: "/fleet", label: "Fleet" },
   { href: "/airport-service", label: "Airport Support" },
   { href: "/contact", label: "Contact" },
+  { href: "/blog", label: "Travel Guide" },
 ];
 
 export default function RootLayout({
@@ -103,7 +104,7 @@ export default function RootLayout({
                       </Link>
                     </li>
                   ))}
-                  <li><Link href="/" className="text-slate-500 transition hover:text-primary">Legal & Privacy</Link></li>
+                  <li><Link href="/legal" className="text-slate-500 transition hover:text-primary">Legal & Privacy</Link></li>
                 </ul>
               </div>
 
@@ -129,9 +130,9 @@ export default function RootLayout({
             <div className="mt-24 flex flex-col items-center justify-between gap-8 border-t border-white/5 pt-12 md:flex-row">
               <p className="text-xs text-slate-600">© 2026 AutoTrip Perth. All rights reserved.</p>
               <div className="flex gap-8 text-xs font-bold text-slate-600">
-                <Link href="#" className="hover:text-slate-400 transition">Terms</Link>
-                <Link href="#" className="hover:text-slate-400 transition">Privacy</Link>
-                <Link href="#" className="hover:text-slate-400 transition">Cookies</Link>
+                <Link href="/legal" className="hover:text-slate-400 transition">Terms</Link>
+                <Link href="/legal" className="hover:text-slate-400 transition">Privacy</Link>
+                <Link href="/legal" className="hover:text-slate-400 transition">Cookies</Link>
               </div>
             </div>
           </div>
