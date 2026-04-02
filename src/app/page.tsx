@@ -12,8 +12,8 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/50 z-10" />
           <Image
-            src="https://images.unsplash.com/photo-1571408105470-349079a2af4a?q=80&w=2070&auto=format&fit=crop"
-            alt="Perth City Skyline"
+            src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=400,height=265,dpr=2/tour_img/554f55280188a7cc0088698ec65109b0cf813e2336f8186c14b403e9199f1be7.jpg"
+            alt="Perth Quokka and Scenery"
             fill
             className="object-cover z-0"
             priority
