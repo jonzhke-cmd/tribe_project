@@ -8,14 +8,19 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-dark-bg text-white">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-slate-900 text-white">
         <div className="absolute inset-0 z-0">
-          <div className="hero-gradient absolute inset-0" />
-          {/* Mock background image overlay */}
-          <div className="absolute inset-0 opacity-40 bg-[url('/car-hero.svg')] bg-cover bg-center mix-blend-overlay" />
+          <div className="absolute inset-0 bg-black/50 z-10" />
+          <Image
+            src="https://images.unsplash.com/photo-1513346940221-6f673d962e97?q=80&w=2070&auto=format&fit=crop"
+            alt="Driving in Western Australia"
+            fill
+            className="object-cover z-0"
+            priority
+          />
         </div>
 
-        <div className="container relative z-10 mx-auto px-6 py-24 lg:px-8">
+        <div className="container relative z-20 mx-auto px-6 py-24 lg:px-8">
           <div className="flex flex-col items-center text-center">
             <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium backdrop-blur">
               <span className="flex h-2 w-2 rounded-full bg-primary" />
