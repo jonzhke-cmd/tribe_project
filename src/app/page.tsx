@@ -110,11 +110,11 @@ export default function Home() {
               <div className="absolute -inset-4 rounded-[3rem] bg-primary/20 blur-3xl" />
               <div className="glass-card relative overflow-hidden rounded-[3rem] p-4">
                 <Image
-                  src="/airport-transfer.svg"
+                  src="/airport-transfer-new.jpg"
                   alt="Airport Transfer Service"
                   width={960}
                   height={640}
-                  className="rounded-[2.5rem] object-cover"
+                  className="rounded-[2.5rem] object-cover aspect-[4/3]"
                 />
               </div>
             </div>
