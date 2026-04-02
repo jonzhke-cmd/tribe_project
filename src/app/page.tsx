@@ -12,8 +12,8 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/50 z-10" />
           <Image
-            src="https://images.unsplash.com/photo-1513346940221-6f673d962e97?q=80&w=2070&auto=format&fit=crop"
-            alt="Driving in Western Australia"
+            src="https://images.unsplash.com/photo-1571408105470-349079a2af4a?q=80&w=2070&auto=format&fit=crop"
+            alt="Perth City Skyline"
             fill
             className="object-cover z-0"
             priority
