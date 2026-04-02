@@ -44,12 +44,12 @@ export default function RootLayout({
         <header className="fixed top-0 z-50 w-full transition-all duration-300">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
             <Link href="/" className="group flex items-center gap-3">
-              <div className="relative h-24 w-72 overflow-hidden -ml-4">
+              <div className="relative h-20 w-48 overflow-hidden bg-white rounded-xl">
                 <Image
                   src="/logo.jpg"
                   alt="AutoTrip Logo"
                   fill
-                  className="object-contain mix-blend-multiply brightness-200 contrast-125"
+                  className="object-contain p-2"
                   priority
                 />
               </div>
@@ -80,12 +80,12 @@ export default function RootLayout({
             <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-4">
               <div className="col-span-full lg:col-span-1">
                 <Link href="/" className="flex items-center gap-3">
-                  <div className="relative h-20 w-56 -ml-2">
+                  <div className="relative h-16 w-40 bg-white rounded-lg">
                     <Image
                       src="/logo.jpg"
                       alt="AutoTrip Logo"
                       fill
-                      className="object-contain mix-blend-multiply brightness-200 contrast-125"
+                      className="object-contain p-2"
                     />
                   </div>
                 </Link>
