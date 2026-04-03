@@ -95,9 +95,9 @@ export default function BlogLanding() {
                 {post.excerpt}
               </p>
               
-              <div className="mt-auto flex items-center gap-1 text-sm font-bold text-primary">
+              <Link href={`/blog/${post.id}`} className="mt-auto flex items-center gap-1 text-sm font-bold text-primary hover:text-slate-900 transition">
                 Read Article <ChevronRight className="h-4 w-4 transition group-hover:translate-x-1" />
-              </div>
+              </Link>
             </article>
           ))}
         </div>
