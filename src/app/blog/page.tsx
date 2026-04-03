@@ -33,7 +33,7 @@ export default function BlogLanding() {
       excerpt: "Think you need a 4x4 to explore Western Australia? Think again. These spectacular national parks are perfect for our standard fleet.",
       date: "March 15, 2026",
       category: "Destinations",
-      image: "https://images.unsplash.com/photo-1520635489708-cb864a6f958a?q=80&w=800&auto=format&fit=crop"
+      image: "/wa-national-parks.jpg"
     }
   ];
 

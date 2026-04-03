@@ -33,7 +33,7 @@ export default function NationalParksGuide() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1520635489708-cb864a6f958a?q=80&w=1200&auto=format&fit=crop"
+            src="/wa-national-parks.jpg"
             alt="Pinnacles desert"
             fill
             className="object-cover"
