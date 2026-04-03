@@ -33,7 +33,7 @@ export default function MargaretRiverPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1543336717-3843e990c764?q=80&w=1200&auto=format&fit=crop"
+            src="/margaret-river.jpg"
             alt="Margaret River coast"
             fill
             className="object-cover"

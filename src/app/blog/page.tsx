@@ -17,7 +17,7 @@ export default function BlogLanding() {
       excerpt: "Everything you need to know about driving from Perth to Margaret River. Best stops, wineries, and coastal views.",
       date: "April 1, 2026",
       category: "Road Trips",
-      image: "https://images.unsplash.com/photo-1543336717-3843e990c764?q=80&w=800&auto=format&fit=crop"
+      image: "/margaret-river.jpg"
     },
     {
       id: "perth-airport-rental-guide",
