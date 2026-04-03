@@ -51,7 +51,7 @@ export default function AirportServicePage() {
             </div>
           </div>
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-4">
-            <Image src="/airport-transfer.svg" alt="Airport service illustration" width={960} height={640} className="h-auto w-full rounded-[1.5rem]" />
+            <Image src="/shuttle-transfer.jpg" alt="Airport service shuttle transfer" width={960} height={640} className="h-auto w-full rounded-[1.5rem] object-cover aspect-[4/3]" />
           </div>
         </div>
       </section>
