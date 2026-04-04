@@ -13,6 +13,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "perth-coral-coast-road-trip-2026",
+      title: "Perth to the Coral Coast: The Road Trip Everyone is Talking About in 2026",
+      excerpt: "International visitors are flooding into WA via Qantas's new direct European routes — and they're all heading north. Here's the definitive Coral Coast road trip guide.",
+      date: "April 4, 2026",
+      category: "Road Trips",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
+    },
+    {
       id: "margaret-river-road-trip",
       title: "The Ultimate Margaret River Weekend Drive",
       excerpt: "Everything you need to know about driving from Perth to Margaret River. Best stops, wineries, and coastal views.",
