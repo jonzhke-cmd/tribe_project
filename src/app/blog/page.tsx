@@ -4,9 +4,10 @@ import Image from "next/image";
 import { ChevronRight, Calendar, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Perth Travel Guide & Tips | AutoTrip Car Rental",
-  description: "Discover the best road trips, hidden gems, and travel tips for Perth and Western Australia from the local car rental experts.",
-  keywords: ["Perth road trips", "WA travel guide", "car rental tips Perth", "Margaret River drive", "Pinnacles desert"],
+  title: "Perth Travel Guide",
+  description:
+    "Explore Perth and Western Australia with AutoTrip's travel guides. Road trip tips, national park guides, and local driving advice.",
+  alternates: { canonical: "https://autotrip-five.vercel.app/blog" },
 };
 
 export default function BlogLanding() {

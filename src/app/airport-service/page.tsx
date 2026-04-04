@@ -29,6 +29,20 @@ const terminals = [
 
 import { PhoneCall } from "lucide-react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Airport Transfer Service",
+  description:
+    "Free 24/7 shuttle service from all Perth Airport terminals (T1-T4) to your hire car. No queues, keys in hand within 15 minutes.",
+  alternates: { canonical: "https://autotrip-five.vercel.app/airport-service" },
+  openGraph: {
+    title: "Perth Airport Car Hire Shuttle | AutoTrip",
+    description: "Free 24/7 shuttle from T1-T4. Keys in hand in 15 minutes.",
+    url: "https://autotrip-five.vercel.app/airport-service",
+  },
+};
+
 export default function AirportServicePage() {
   return (
     <main>

@@ -1,6 +1,15 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin, Clock3, MessageSquare } from "lucide-react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with AutoTrip Perth. Call us on 08 9479 4900 or email enquiry@autotrip.com.au. Located at Horrie Miller Drive, Perth Airport WA.",
+  alternates: { canonical: "https://autotrip-five.vercel.app/contact" },
+};
+
 export default function ContactPage() {
   return (
     <main>
