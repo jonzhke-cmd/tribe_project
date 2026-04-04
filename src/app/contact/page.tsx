@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, MapPin, Clock3, MessageSquare } from "lucide-react";
 
 import type { Metadata } from "next";
@@ -13,8 +14,18 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main>
-      <section className="bg-slate-950 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section className="relative bg-slate-950 text-white overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-black/60 z-10" />
+          <Image
+            src="/contact-hero.jpg"
+            alt="AutoTrip Perth customer service team available 24/7"
+            fill
+            className="object-cover object-center z-0"
+            priority
+          />
+        </div>
+        <div className="relative z-20 mx-auto max-w-7xl px-6 py-32 lg:px-8">
           <span className="inline-flex rounded-full bg-white/10 px-4 py-2 text-sm text-slate-300">
             Contact Us
           </span>
