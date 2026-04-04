@@ -3,6 +3,20 @@ import Image from "next/image";
 import { ArrowRight, Users, Briefcase, Fuel, ShieldCheck, Luggage, Star } from "lucide-react";
 import { fleet } from "@/app/data/fleet";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Fleet",
+  description:
+    "Browse AutoTrip's curated fleet of modern vehicles available for hire at Perth Airport. Hatchbacks, sedans, SUVs and people movers from $49/day.",
+  alternates: { canonical: "https://autotrip-five.vercel.app/fleet" },
+  openGraph: {
+    title: "Car Hire Fleet | AutoTrip Perth",
+    description: "Modern, well-maintained vehicles from $49/day. Book at Perth Airport.",
+    url: "https://autotrip-five.vercel.app/fleet",
+  },
+};
+
 export default function FleetPage() {
   return (
     <main className="bg-white">
