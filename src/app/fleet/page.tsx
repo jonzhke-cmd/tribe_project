@@ -20,8 +20,18 @@ export const metadata: Metadata = {
 export default function FleetPage() {
   return (
     <main className="bg-white">
-      <section className="bg-dark-bg py-32 text-white">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <section className="relative bg-dark-bg py-32 text-white overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-black/65 z-10" />
+          <Image
+            src="/fleet-hero.jpg"
+            alt="AutoTrip Perth premium car rental fleet lineup"
+            fill
+            className="object-cover object-center z-0"
+            priority
+          />
+        </div>
+        <div className="relative z-20 mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex flex-col items-center text-center">
             <span className="inline-flex rounded-full bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-primary">
               The Selection
