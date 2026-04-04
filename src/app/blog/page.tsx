@@ -13,6 +13,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "perth-farm-stays-families",
+      title: "Why Perth Families Are Ditching Hotels for Farm Stays in 2026",
+      excerpt: "Forget the beachside apartment. The hottest family travel trend in WA? Farm stays near Perth — from strawberry picking in Chittering to vineyard cottages in Jarrahdale.",
+      date: "April 4, 2026",
+      category: "Family Travel",
+      image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&auto=format&fit=crop&q=80"
+    },
+    {
       id: "perth-coral-coast-road-trip-2026",
       title: "Perth to the Coral Coast: The Road Trip Everyone is Talking About in 2026",
       excerpt: "International visitors are flooding into WA via Qantas's new direct European routes — and they're all heading north. Here's the definitive Coral Coast road trip guide.",
