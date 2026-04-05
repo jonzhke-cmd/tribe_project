@@ -33,7 +33,7 @@ export default function PinnaclesDesertPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600&q=80"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Pinnacles_Desert_in_Nambung_National_Park%2C_Western_Australia.jpg/1600px-The_Pinnacles_Desert_in_Nambung_National_Park%2C_Western_Australia.jpg"
             alt="The Pinnacles Desert, Nambung National Park, Western Australia"
             fill
             className="object-cover"
