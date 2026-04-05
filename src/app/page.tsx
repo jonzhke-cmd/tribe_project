@@ -151,6 +151,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Promo Video Section */}
+      <section className="bg-white py-24">
+        <div className="container mx-auto px-6 lg:px-8">
+          <div className="flex flex-col items-center text-center mb-12">
+            <span className="text-sm font-bold uppercase tracking-[0.2em] text-primary">See AutoTrip in Action</span>
+            <h2 className="mt-4 text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">
+              Your Perth Adventure Starts Here.
+            </h2>
+          </div>
+          <div className="relative mx-auto max-w-4xl overflow-hidden rounded-[2.5rem] shadow-2xl shadow-slate-200">
+            <video
+              className="w-full"
+              controls
+              autoPlay={false}
+              playsInline
+              poster="/perth-hero.jpg"
+            >
+              <source src="/autotrip-promo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="bg-white py-24">
         <div className="container mx-auto px-6 lg:px-8">
