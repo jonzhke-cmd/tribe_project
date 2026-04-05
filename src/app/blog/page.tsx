@@ -18,7 +18,7 @@ export default function BlogLanding() {
       excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
       date: "April 5, 2026",
       category: "Day Trips",
-      image: "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=800&q=80"
+      image: "/pinnacles-user-photo.jpg"
     },
     {
       id: "perth-farm-stays-families",
