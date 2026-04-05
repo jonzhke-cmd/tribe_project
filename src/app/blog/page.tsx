@@ -13,6 +13,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "pinnacles-desert-day-trip-perth",
+      title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
+      excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
+      date: "April 5, 2026",
+      category: "Day Trips",
+      image: "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=800&q=80"
+    },
+    {
       id: "perth-farm-stays-families",
       title: "Why Perth Families Are Ditching Hotels for Farm Stays in 2026",
       excerpt: "Forget the beachside apartment. The hottest family travel trend in WA? Farm stays near Perth — from strawberry picking in Chittering to vineyard cottages in Jarrahdale.",
