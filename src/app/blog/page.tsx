@@ -13,14 +13,6 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
-      id: "perth-family-road-trips-kids-2026",
-      title: "Perth Family Road Trips: The Ultimate Kids Edition 2026",
-      excerpt: "Road tripping with kids doesn't have to be stressful! Discover kid-friendly routes, packing tips, and entertainment strategies for happy family travels.",
-      date: "April 6, 2026",
-      category: "Family Travel",
-      image: "/family-roadtrip-photo-v2.jpg"
-    },
-    {
       id: "western-australia-national-parks-guide-2026",
       title: "Western Australia National Parks: The Complete 2026 Guide",
       excerpt: "Discover Western Australia's most spectacular national parks. From ancient forests to red cliffs, this guide covers everything for your 2026 road trip.",
@@ -32,6 +24,18 @@ export default function BlogLanding() {
       id: "pinnacles-desert-day-trip-perth",
       title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
       excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
+      date: "April 5, 2026",
+      category: "Day Trips",
+      image: "/pinnacles-user-photo.jpg"
+    },
+    {
+      id: "margaret-river-road-trip",
+      title: "Perth to Margaret River: The Ultimate 2026 Road Trip Guide",
+      excerpt: "From world-class wineries to stunning coastlines, the Margaret River region offers the perfect road trip from Perth. Discover the best stops, accommodation, and driving tips for 2026.",
+      date: "April 4, 2026",
+      category: "Road Trips",
+      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+    },
       date: "April 5, 2026",
       category: "Day Trips",
       image: "/pinnacles-user-photo.jpg"
