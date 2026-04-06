@@ -75,7 +75,8 @@ export default function FamilyRoadTripsKidsEdition() {
               <div className="relative h-[300px] lg:h-[400px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
                   src="/family-roadtrip-photo-v2.jpg"
-                  alt="Family road trip adventure: mother with three children by SUV on scenic rural road"
+                  alt="Family road trip adventure in Western Australia: mother with backpack smiling at three children by gray SUV on rural dirt road with lush green hills"
+                  title="Perfect family road trip moment in WA"
                   fill
                   className="object-cover"
                   priority
@@ -84,7 +85,7 @@ export default function FamilyRoadTripsKidsEdition() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 text-white">
                   <p className="text-sm font-medium">Featured Photo</p>
-                  <p className="text-xs opacity-90">Family adventure in Western Australia</p>
+                  <p className="text-xs opacity-90">Perfect family road trip moment: mother with three children exploring WA</p>
                 </div>
               </div>
             </div>
