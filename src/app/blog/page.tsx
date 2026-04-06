@@ -18,7 +18,7 @@ export default function BlogLanding() {
       excerpt: "Road tripping with kids doesn't have to be stressful! Discover kid-friendly routes, packing tips, and entertainment strategies for happy family travels.",
       date: "April 6, 2026",
       category: "Family Travel",
-      image: "/family-roadtrip-photo.jpg"
+      image: "/family-roadtrip-photo-v2.jpg"
     },
     {
       id: "western-australia-national-parks-guide-2026",

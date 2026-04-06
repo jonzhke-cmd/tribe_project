@@ -58,8 +58,8 @@ export default function FamilyRoadTripsKidsEdition() {
 
         <div className="relative w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] rounded-2xl md:rounded-[2rem] overflow-hidden mb-12 md:mb-16 shadow-xl bg-slate-100">
           <Image
-            src="/family-roadtrip-photo.jpg"
-            alt="Family road trip adventure with kids by SUV on rural road"
+            src="/family-roadtrip-photo-v2.jpg"
+            alt="Family road trip adventure: mother with three children by SUV on scenic rural road"
             fill
             className="object-cover"
             priority
