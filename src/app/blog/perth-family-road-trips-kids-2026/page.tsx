@@ -58,8 +58,8 @@ export default function FamilyRoadTripsKidsEdition() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600&q=80"
-            alt="Happy family on a road trip in Western Australia"
+            src="/family-roadtrip-photo.jpg"
+            alt="Family road trip adventure with kids by SUV on rural road"
             fill
             className="object-cover"
             priority
