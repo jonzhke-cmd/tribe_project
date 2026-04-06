@@ -56,15 +56,16 @@ export default function FamilyRoadTripsKidsEdition() {
           </p>
         </header>
 
-        <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
+        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] rounded-2xl md:rounded-[2rem] overflow-hidden mb-12 md:mb-16 shadow-xl">
           <Image
             src="/family-roadtrip-photo.jpg"
             alt="Family road trip adventure with kids by SUV on rural road"
             fill
             className="object-cover"
             priority
-            unoptimized
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 1200px"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
         </div>
 
         <div className="prose prose-lg max-w-none">
