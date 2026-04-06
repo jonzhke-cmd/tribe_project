@@ -13,29 +13,9 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
-      id: "western-australia-national-parks-guide-2026",
-      title: "Western Australia National Parks: The Complete 2026 Guide",
-      excerpt: "Discover Western Australia's most spectacular national parks. From ancient forests to red cliffs, this guide covers everything for your 2026 road trip.",
-      date: "April 6, 2026",
-      category: "National Parks",
-      image: "/national-parks-photo.jpg"
-    },
-    {
       id: "pinnacles-desert-day-trip-perth",
       title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
       excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
-      date: "April 5, 2026",
-      category: "Day Trips",
-      image: "/pinnacles-user-photo.jpg"
-    },
-    {
-      id: "margaret-river-road-trip",
-      title: "Perth to Margaret River: The Ultimate 2026 Road Trip Guide",
-      excerpt: "From world-class wineries to stunning coastlines, the Margaret River region offers the perfect road trip from Perth. Discover the best stops, accommodation, and driving tips for 2026.",
-      date: "April 4, 2026",
-      category: "Road Trips",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
-    },
       date: "April 5, 2026",
       category: "Day Trips",
       image: "/pinnacles-user-photo.jpg"
@@ -45,6 +25,17 @@ export default function BlogLanding() {
       title: "Why Perth Families Are Ditching Hotels for Farm Stays in 2026",
       excerpt: "Forget the beachside apartment. The hottest family travel trend in WA? Farm stays near Perth — from strawberry picking in Chittering to vineyard cottages in Jarrahdale.",
       date: "April 4, 2026",
+      category: "Family Travel",
+      image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      id: "perth-coral-coast-road-trip-2026",
+      title: "Perth to the Coral Coast: The Road Trip Everyone is Talking About in 2026",
+      excerpt: "International visitors are flooding into WA via Qantas's new direct European routes — and they're all heading north. Here's the definitive Coral Coast road trip guide.",
+      date: "April 4, 2026",
+      category: "Road Trips",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
+    },
       category: "Family Travel",
       image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&auto=format&fit=crop&q=80"
     },
