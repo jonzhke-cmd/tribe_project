@@ -13,6 +13,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "western-australia-national-parks-guide-2026",
+      title: "Western Australia National Parks: The Complete 2026 Guide",
+      excerpt: "Discover Western Australia's most spectacular national parks. From ancient forests to red cliffs, this guide covers everything for your 2026 road trip.",
+      date: "April 6, 2026",
+      category: "National Parks",
+      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+    },
+    {
       id: "pinnacles-desert-day-trip-perth",
       title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
       excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
