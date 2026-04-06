@@ -26,7 +26,7 @@ export default function BlogLanding() {
       excerpt: "Discover Western Australia's most spectacular national parks. From ancient forests to red cliffs, this guide covers everything for your 2026 road trip.",
       date: "April 6, 2026",
       category: "National Parks",
-      image: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&q=80"
+      image: "/national-parks-photo.jpg"
     },
     {
       id: "pinnacles-desert-day-trip-perth",
