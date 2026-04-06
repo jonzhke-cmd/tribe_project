@@ -56,7 +56,7 @@ export default function FamilyRoadTripsKidsEdition() {
           </p>
         </header>
 
-        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] rounded-2xl md:rounded-[2rem] overflow-hidden mb-12 md:mb-16 shadow-xl">
+        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] rounded-2xl md:rounded-[2rem] overflow-hidden mb-12 md:mb-16 shadow-xl bg-slate-100">
           <Image
             src="/family-roadtrip-photo.jpg"
             alt="Family road trip adventure with kids by SUV on rural road"
