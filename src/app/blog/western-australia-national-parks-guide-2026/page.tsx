@@ -53,7 +53,7 @@ export default function NationalParksGuide() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600&q=80"
+            src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=1600&q=80"
             alt="Western Australia National Parks Landscape"
             fill
             className="object-cover"
