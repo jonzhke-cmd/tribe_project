@@ -76,6 +76,20 @@ export default function FamilyRoadTripsKidsEdition() {
             museums to adventure parks designed for kids, WA has never been more family-accessible.
           </p>
 
+          <div className="my-12">
+            <div className="relative w-full h-[250px] sm:h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/family-roadtrip-additional.jpg"
+                alt="Family enjoying their road trip adventure together"
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 1200px"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+            </div>
+            <p className="text-center text-sm text-slate-500 mt-4">Family road trips create lasting memories and bonding experiences</p>
+          </div>
+
           <h2>Top 3 Kid-Approved Routes from Perth</h2>
           
           <div className="bg-blue-50 rounded-2xl p-6 my-8">
