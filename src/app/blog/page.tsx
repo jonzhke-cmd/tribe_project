@@ -13,6 +13,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "perth-family-road-trips-kids-2026",
+      title: "Perth Family Road Trips: The Ultimate Kids Edition 2026",
+      excerpt: "Road tripping with kids doesn't have to be stressful! Discover kid-friendly routes, packing tips, and entertainment strategies for happy family travels.",
+      date: "April 6, 2026",
+      category: "Family Travel",
+      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+    },
+    {
       id: "western-australia-national-parks-guide-2026",
       title: "Western Australia National Parks: The Complete 2026 Guide",
       excerpt: "Discover Western Australia's most spectacular national parks. From ancient forests to red cliffs, this guide covers everything for your 2026 road trip.",
