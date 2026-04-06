@@ -504,6 +504,21 @@ export default function FamilyRoadTripsKidsEdition() {
                 <p className="text-slate-600 mb-6">
                   Visit our resources page to download our free 2026 Family Road Trip Planner, including:
                 </p>
+
+                {/* Additional Picture - Bottom Section */}
+                <div className="mb-8">
+                  <div className="relative h-[250px] md:h-[300px] rounded-xl overflow-hidden shadow-md">
+                    <Image
+                      src="/family-roadtrip-bottom-photo.jpg"
+                      alt="Family creating memories on their Western Australia road trip adventure"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 800px"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                  </div>
+                  <p className="text-center text-sm text-slate-500 mt-3">Create lasting family memories on your WA road trip adventure</p>
+                </div>
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                   <div className="text-center">
                     <div className="bg-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2 shadow-sm">
