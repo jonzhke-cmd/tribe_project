@@ -1,6 +1,9 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: "Perth to Albany: WA's Most Underrated Road Trip Is About to Blow Up",
   description: "Autumn 2026 is driving renewed interest in WA's Great Southern coastal route — ancient tingle forests at Walpole, the stunning Greens Pool at William Bay, cool-climate Denmark wineries, and Albany's dramatic Torndirrup cliffs.",
