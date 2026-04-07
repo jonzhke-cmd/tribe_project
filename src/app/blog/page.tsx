@@ -14,7 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default function BlogLanding() {
-  const featuredPosts = [
+  const featuredPosts = [    {
+      id: "perth-airport-car-rental-tips-2026",
+      title: "Perth airport car rental tips",
+      excerpt: "Discover the best of Western Australia with this perth airport car rental tips. Perfect for international visitors and locals alike, this guide covers everything you need for an unforgettable road trip experience in 2026.",
+      date: "April 7, 2026",
+      category: "Road Trips",
+      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+    },
     {
       id: "perth-to-broome-highway-1-road-trip",
       title: "Perth to Broome: The Drive That Will Change How You See Australia",
