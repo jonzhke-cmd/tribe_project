@@ -37,15 +37,8 @@ export default function PerthToAlbanyRoadTrip() {
           <p>
             The 420km drive from Perth to Albany takes you through some of Western Australia's 
             most diverse landscapes. Unlike the more popular Margaret River route, this southern 
-            coastal drive offers:
+            coastal drive offers ancient forests, stunning beaches, and dramatic cliffs with far fewer crowds.
           </p>
-          <ul className="list-disc pl-6 mb-6">
-            <li>Ancient tingle forests in Walpole-Nornalup National Park</li>
-            <li>The stunning Greens Pool at William Bay</li>
-            <li>Cool-climate wineries in Denmark</li>
-            <li>Dramatic coastal cliffs at Torndirrup National Park</li>
-            <li>Far fewer crowds than northern routes</li>
-          </ul>
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">4-Day Itinerary</h2>
           
@@ -90,4 +83,4 @@ export default function PerthToAlbanyRoadTrip() {
       </div>
     </div>
   );
-}// Force redeploy
+}

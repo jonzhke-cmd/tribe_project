@@ -14,14 +14,6 @@ export default function BlogLanding() {
   const featuredPosts = [
     {
       id: "perth-to-albany-great-southern-road-trip",
-    {
-      id: "test-simple",
-      title: "Test Simple Post",
-      excerpt: "Testing if deployment works",
-      date: "April 7, 2026",
-      category: "Test",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
-    },
       title: "Perth to Albany: WA's Most Underrated Road Trip Is About to Blow Up",
       excerpt: "Autumn 2026 is driving renewed interest in WA's Great Southern coastal route — ancient tingle forests, stunning Greens Pool, cool-climate wineries, and dramatic coastal cliffs.",
       date: "April 7, 2026",
@@ -67,28 +59,6 @@ export default function BlogLanding() {
       date: "March 28, 2026",
       category: "Travel Tips",
       image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop"
-    },
-    {
-      id: "wa-national-parks",
-      title: "5 WA National Parks Accessible by 2WD",
-      excerpt: "Think you need a 4x4 to explore Western Australia? Think again. These spectacular national parks are perfect for our standard fleet.",
-      date: "March 15, 2026",
-      category: "Destinations",
-      image: "/wa-national-parks.jpg"
-    },
-      title: "How to Navigate Perth Airport Car Rentals",
-      excerpt: "Skip the counter queues. Our guide to the fastest, most stress-free way to collect your rental car at Perth T1-T4.",
-      date: "March 28, 2026",
-      category: "Travel Tips",
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop"
-    },
-    {
-      id: "wa-national-parks",
-      title: "5 WA National Parks Accessible by 2WD",
-      excerpt: "Think you need a 4x4 to explore Western Australia? Think again. These spectacular national parks are perfect for our standard fleet.",
-      date: "March 15, 2026",
-      category: "Destinations",
-      image: "/wa-national-parks.jpg"
     }
   ];
 
@@ -166,7 +136,10 @@ export default function BlogLanding() {
             Perth is the sunniest capital city in Australia, and the gateway to some of the world's most spectacular coastal drives. While the city center is well-connected by public transport, exploring the vast landscapes of Western Australia—from the pristine beaches of Margaret River to the ancient Pinnacles Desert—requires the freedom of your own vehicle.
           </p>
           <p className="mt-4">
-            At AutoTrip, we specialize in providing reliable, late-model rental cars straight from Perth Airport (T1-T4). As a local, independent operator with over 30 years of experience, we offer transparent pricing, zero hidden fees, and vehicles perfectly suited for WA's unique driving conditions. Whether you need a compact car for city business or an SUV for a family coastal road trip, our fleet is ready.
+            AutoTrip offers a curated fleet of late-model rental cars, all maintained to the highest standards. Whether you need a compact city car for navigating Perth's suburbs or a spacious SUV for a family road trip along the Coral Coast, we have the right vehicle for your WA adventure.
+          </p>
+          <p className="mt-4">
+            Our blog provides honest, locally-informed travel advice to help you plan the perfect Western Australia road trip. From hidden beaches to the best winery stops, we share the insights that only locals know.
           </p>
         </div>
       </div>
