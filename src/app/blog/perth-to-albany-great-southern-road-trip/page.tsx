@@ -32,7 +32,7 @@ export default function PerthToAlbanyRoadTrip() {
         <div className="relative w-full h-96 rounded-2xl overflow-hidden mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://raw.githubusercontent.com/jonzhke-cmd/tribe_project/master/public/albany-coastal-cliff-v2.jpg"
+            src="https://raw.githubusercontent.com/jonzhke-cmd/tribe_project/master/public/albany-coastal-cliff-v2.jpg?nocache=202604071224"
             alt="Dramatic coastal cliffs near Albany, Western Australia"
             className="w-full h-full object-cover"
           />
