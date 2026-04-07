@@ -14,7 +14,6 @@ export default function BlogLanding() {
   const featuredPosts = [
     {
       id: "perth-to-albany-great-southern-road-trip",
-    {
       title: "Perth to Albany: WA's Most Underrated Road Trip Is About to Blow Up",
       excerpt: "Autumn 2026 is driving renewed interest in WA's Great Southern coastal route — ancient tingle forests, stunning Greens Pool, cool-climate wineries, and dramatic coastal cliffs.",
       date: "April 7, 2026",
