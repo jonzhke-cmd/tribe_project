@@ -18,7 +18,7 @@ export default function BlogLanding() {
       excerpt: "Autumn 2026 is driving renewed interest in WA's Great Southern coastal route — ancient tingle forests, stunning Greens Pool, cool-climate wineries, and dramatic coastal cliffs.",
       date: "April 7, 2026",
       category: "Road Trips",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+      image: "/albany-coastal-cliff.jpg"
     },
     {
       id: "pinnacles-desert-day-trip-perth",

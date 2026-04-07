@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Perth to Albany: WA's Most Underrated Road Trip Is About to Blow Up",
@@ -23,6 +24,20 @@ export default function PerthToAlbanyRoadTrip() {
             Road Trips
           </span>
           <span className="text-gray-500">April 7, 2026</span>
+        </div>
+        
+        {/* Hero Image - Albany Coastal Cliff */}
+        <div className="relative w-full h-96 rounded-2xl overflow-hidden mb-8">
+          <Image
+            src="/albany-coastal-cliff.jpg"
+            alt="Dramatic coastal cliffs near Albany, Western Australia"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute bottom-4 left-4 bg-black/60 text-white px-3 py-1 rounded-lg text-sm">
+            Albany's stunning coastal cliffs © 2026
+          </div>
         </div>
         
         <div className="prose max-w-none">
