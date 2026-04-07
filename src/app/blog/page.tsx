@@ -13,6 +13,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "perth-to-albany-great-southern-road-trip",
+      title: "Perth to Albany: WA's Most Underrated Road Trip Is About to Blow Up",
+      excerpt: "Autumn 2026 is driving renewed interest in WA's Great Southern coastal route — ancient tingle forests, stunning Greens Pool, cool-climate wineries, and dramatic coastal cliffs.",
+      date: "April 7, 2026",
+      category: "Road Trips",
+      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+    },
+    {
       id: "pinnacles-desert-day-trip-perth",
       title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
       excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
@@ -36,17 +44,6 @@ export default function BlogLanding() {
       category: "Road Trips",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
     },
-      category: "Family Travel",
-      image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&auto=format&fit=crop&q=80"
-    },
-    {
-      id: "perth-coral-coast-road-trip-2026",
-      title: "Perth to the Coral Coast: The Road Trip Everyone is Talking About in 2026",
-      excerpt: "International visitors are flooding into WA via Qantas's new direct European routes — and they're all heading north. Here's the definitive Coral Coast road trip guide.",
-      date: "April 4, 2026",
-      category: "Road Trips",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
-    },
     {
       id: "margaret-river-road-trip",
       title: "The Ultimate Margaret River Weekend Drive",
@@ -57,6 +54,20 @@ export default function BlogLanding() {
     },
     {
       id: "perth-airport-rental-guide",
+      title: "How to Navigate Perth Airport Car Rentals",
+      excerpt: "Skip the counter queues. Our guide to the fastest, most stress-free way to collect your rental car at Perth T1-T4.",
+      date: "March 28, 2026",
+      category: "Travel Tips",
+      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      id: "wa-national-parks",
+      title: "5 WA National Parks Accessible by 2WD",
+      excerpt: "Think you need a 4x4 to explore Western Australia? Think again. These spectacular national parks are perfect for our standard fleet.",
+      date: "March 15, 2026",
+      category: "Destinations",
+      image: "/wa-national-parks.jpg"
+    },
       title: "How to Navigate Perth Airport Car Rentals",
       excerpt: "Skip the counter queues. Our guide to the fastest, most stress-free way to collect your rental car at Perth T1-T4.",
       date: "March 28, 2026",
