@@ -26,10 +26,10 @@ export default function PerthToAlbanyRoadTrip() {
           <span className="text-gray-500">April 7, 2026</span>
         </div>
         
-        {/* Hero Image - Albany Coastal Cliff */}
+        {/* Hero Image - Albany Coastal Cliff - CACHE BUST v2 */}
         <div className="relative w-full h-96 rounded-2xl overflow-hidden mb-8">
           <Image
-            src="/albany-coastal-cliff.jpg"
+            src="/albany-coastal-cliff.jpg?v=2"
             alt="Dramatic coastal cliffs near Albany, Western Australia"
             fill
             className="object-cover"
