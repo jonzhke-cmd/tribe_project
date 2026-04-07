@@ -16,6 +16,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "perth-to-broome-highway-1-road-trip",
+      title: "Perth to Broome: The Drive That Will Change How You See Australia",
+      excerpt: "2,200km of WA's most spectacular coast — pindan cliffs, Ningaloo Reef, whale sharks, and Cable Beach sunsets. The epic Highway 1 road trip everyone is talking about in 2026.",
+      date: "April 7, 2026",
+      category: "Epic Road Trips",
+      image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&auto=format&fit=crop&q=80"
+    },
+    {
       id: "albany-coastal-cliffs-2026",
       title: "Albany's Coastal Cliffs: Why This is WA's Best Road Trip (And Everyone's Missing It)",
       excerpt: "Forget Margaret River. Albany's coastline makes everything else look like a practice run. Local's guide to the Great Southern route with proper WA road trip advice.",
