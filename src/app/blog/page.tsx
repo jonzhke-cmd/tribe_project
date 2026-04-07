@@ -16,12 +16,12 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
-      id: "perth-to-albany-great-southern-road-trip",
+      id: "albany-road-trip-fresh",
       title: "Perth to Albany: WA's Most Underrated Road Trip Is About to Blow Up",
       excerpt: "Autumn 2026 is driving renewed interest in WA's Great Southern coastal route — ancient tingle forests, stunning Greens Pool, cool-climate wineries, and dramatic coastal cliffs.",
       date: "April 7, 2026",
       category: "Road Trips",
-      image: "https://raw.githubusercontent.com/jonzhke-cmd/tribe_project/master/public/albany-coastal-cliff-v2.jpg"
+      image: "https://raw.githubusercontent.com/jonzhke-cmd/tribe_project/master/public/albany-coastal-cliff-v2.jpg?fresh=202604071322"
     },
     {
       id: "pinnacles-desert-day-trip-perth",
