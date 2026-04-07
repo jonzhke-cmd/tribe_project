@@ -17,10 +17,10 @@ export default function BlogLanding() {
   const featuredPosts = [
     {
       id: "albany-coastal-cliffs-2026",
-      title: "Albany Coastal Cliffs: WA's Most Dramatic Road Trip Viewpoints 2026",
-      excerpt: "Discover Albany's stunning coastal cliffs, ancient tingle forests, and cool-climate wineries on WA's Great Southern route. Complete driving guide with exact viewpoints.",
+      title: "Albany's Coastal Cliffs: Why This is WA's Best Road Trip (And Everyone's Missing It)",
+      excerpt: "Forget Margaret River. Albany's coastline makes everything else look like a practice run. Local's guide to the Great Southern route with proper WA road trip advice.",
       date: "April 7, 2026",
-      category: "Road Trips",
+      category: "Great Southern Road Trips",
       image: "/albany-cliff-view.jpg"
     },
     {
