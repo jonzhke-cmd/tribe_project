@@ -16,6 +16,14 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
+      id: "albany-coastal-cliffs-2026",
+      title: "Albany Coastal Cliffs: WA's Most Dramatic Road Trip Viewpoints 2026",
+      excerpt: "Discover Albany's stunning coastal cliffs, ancient tingle forests, and cool-climate wineries on WA's Great Southern route. Complete driving guide with exact viewpoints.",
+      date: "April 7, 2026",
+      category: "Road Trips",
+      image: "/albany-cliff-view.jpg"
+    },
+    {
       id: "pinnacles-desert-day-trip-perth",
       title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
       excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
