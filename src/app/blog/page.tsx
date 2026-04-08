@@ -20,7 +20,7 @@ export default function BlogLanding() {
       excerpt: "Discover the best of Western Australia with this perth airport car rental tips. Perfect for international visitors and locals alike, this guide covers everything you need for an unforgettable road trip experience in 2026.",
       date: "April 7, 2026",
       category: "Road Trips",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
+      image: "/perth-airport-car-rental-sign.jpg"
     },
     {
       id: "perth-to-broome-highway-1-road-trip",
