@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import BookingFlow from "./BookingClient";
+import SimpleBooking from "./SimpleBooking";
 
 export const metadata: Metadata = {
   title: "Book Your Car",
@@ -9,5 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function BookPage() {
-  return <BookingFlow />;
+  return <SimpleBooking />;
 }
