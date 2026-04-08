@@ -28,7 +28,7 @@ export default function BlogLanding() {
       excerpt: "2,200km of WA's most spectacular coast — pindan cliffs, Ningaloo Reef, whale sharks, and Cable Beach sunsets. The epic Highway 1 road trip everyone is talking about in 2026.",
       date: "April 7, 2026",
       category: "Epic Road Trips",
-      image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&auto=format&fit=crop&q=80"
+      image: "/broome-wa-coast.jpg"
     },
     {
       id: "albany-coastal-cliffs-2026",

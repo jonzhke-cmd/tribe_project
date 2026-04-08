@@ -39,8 +39,8 @@ export default function BroomRoadTripBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=1400&q=80"
-            alt="Red pindan cliffs meeting turquoise ocean along the Western Australia Coral Coast highway to Broome"
+            src="/broome-wa-coast.jpg"
+            alt="Stunning Western Australia coastal cliffs along the Perth to Broome highway - red pindan cliffs meeting turquoise Indian Ocean"
             fill
             className="object-cover"
             priority
