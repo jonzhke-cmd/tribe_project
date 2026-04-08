@@ -14,7 +14,16 @@ export const metadata: Metadata = {
 };
 
 export default function BlogLanding() {
-  const featuredPosts = [    {
+  const featuredPosts = [
+    {
+      id: "perth-to-esperance-road-trip-2026",
+      title: "Perth to Esperance: The Road Trip That's Breaking TikTok in 2026",
+      excerpt: "Lucky Bay has the whitest sand in Australia, kangaroos that sunbathe on the beach, and water so turquoise it looks photoshopped. This is WA's most underrated drive — and travellers are finally discovering it.",
+      date: "April 8, 2026",
+      category: "Road Trips",
+      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80"
+    },
+    {
       id: "perth-airport-car-rental-tips-2026",
       title: "Perth airport car rental tips",
       excerpt: "Discover the best of Western Australia with this perth airport car rental tips. Perfect for international visitors and locals alike, this guide covers everything you need for an unforgettable road trip experience in 2026.",
