@@ -99,7 +99,27 @@ export default function EsperanceCoastalCliffs2026() {
             12.5km return, moderate difficulty, absolutely worth it. This hike along the Flinders Peninsula gives you 360-degree views of the Southern Ocean, King George Sound, and the Porongurup Range in the distance. Do it in spring for the wildflowers or autumn for perfect hiking weather.
           </p>
 
-          <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">3. Misery Beach (Yes, Really)</h3>
+          <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">3. Sunset Dolphin Spotting (The Magic Hour)</h3>
+          <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden my-8">
+            <Image
+              src="/esperance-sunset-dolphins.jpg"
+              alt="Sunset at Esperance coastal cliffs with dolphins swimming below — this is why you time your visit for golden hour"
+              fill
+              className="object-cover"
+              unoptimized
+            />
+            <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg">
+              <p className="text-sm font-medium text-slate-900">Golden hour dolphin spotting — Esperance at its most magical</p>
+            </div>
+          </div>
+          <p>
+            This is the moment that makes the 4.5-hour drive worth it. As the sun starts to dip, head to any of the coastal lookouts between The Gap and Twilight Beach. That's when the dolphins come out to play in the golden light. We've seen pods of 20+ dolphins cruising along the cliffs, completely unaware of the stunning backdrop they're creating.
+          </p>
+          <p>
+            <strong>Pro tip:</strong> Bring a proper camera or at least a phone with good zoom. The dolphins stay close to shore but you'll want to capture those jumps against the sunset. And yes, the wheelchair-accessible viewing platforms mean everyone gets this view.
+          </p>
+
+          <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">4. Misery Beach (Yes, Really)</h3>
           <p>
             Named Australia's best beach in 2022 and still living up to the title. White sand, turquoise water, granite boulders that look photoshopped — and barely anyone there. The car park's a bit rough (hence the SUV recommendation), but the 10-minute walk to the beach feels like discovering a secret.
           </p>
