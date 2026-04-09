@@ -14,14 +14,21 @@ export const metadata: Metadata = {
 };
 
 export default function BlogLanding() {
-  const featuredPosts = [
+  const featuredPosts = [    {
+      id: "swan-valley-wine-food-trail-perth",
+      title: "Swan Valley Wine & Food Trail: Perth's Best Day Trip Right Now",
+      excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
+      date: "April 5, 2026",
+      category: "Day Trips",
+      image: "/swan-valley-winery-sunset.jpg"
+    },
     {
       id: "perth-to-esperance-road-trip-2026",
       title: "Perth to Esperance: The Road Trip That's Breaking TikTok in 2026",
-      excerpt: "Lucky Bay has the whitest sand in Australia, kangaroos that sunbathe on the beach, and water so turquoise it looks photoshopped. This is WA's most underrated drive — and travellers are finally discovering it.",
+      excerpt: "Discover why Lucky Bay at Cape Le Grand National Park has gone viral on TikTok. Complete guide to the Perth to Esperance road trip, including car rental tips, must-see stops, and 2026 travel insights.",
       date: "April 8, 2026",
-      category: "Road Trips",
-      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80"
+      category: "Viral Destinations",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
     },
     {
       id: "perth-airport-car-rental-tips-2026",
@@ -173,4 +180,3 @@ export default function BlogLanding() {
     </div>
   );
 }
-// Build trigger at Thu Apr  9 00:14:36 UTC 2026
