@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   // We remove 'output: export' because we now use API routes (server-side logic)
   trailingSlash: true,
   swcMinify: true,
+  experimental: {
+    turbo: false, // Disable Turbopack
+  },
   images: {
     unoptimized: true,
     remotePatterns: [
