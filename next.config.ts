@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   // We remove 'output: export' because we now use API routes (server-side logic)
   trailingSlash: true,
+  swcMinify: true,
   images: {
     unoptimized: true,
     remotePatterns: [
