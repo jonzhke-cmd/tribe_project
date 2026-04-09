@@ -101,10 +101,12 @@ export default function EsperanceCoastalCliffs2026() {
 
           <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">3. Sunset Dolphin Spotting (The Magic Hour)</h3>
           <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden my-8">
-            <img
-              src="https://raw.githubusercontent.com/jonzhke-cmd/tribe_project/master/public/esperance-sunset-dolphins.jpg"
+            <Image
+              src="/esperance-sunset-dolphins.jpg"
               alt="Sunset at Esperance coastal cliffs with dolphins swimming below — this is why you time your visit for golden hour"
-              className="object-cover w-full h-full"
+              fill
+              className="object-cover"
+              unoptimized
             />
             <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg">
               <p className="text-sm font-medium text-slate-900">Golden hour dolphin spotting — Esperance at its most magical</p>
