@@ -54,14 +54,14 @@ export default function PerthToJurienBayTurquoiseCoast2026() {
         {/* Hero Image */}
         <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden mb-12">
           <Image
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80"
-            alt="Crystal turquoise water and white sand beach on Western Australia's Turquoise Coast near Jurien Bay"
+            src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            alt="Turquoise waters and dramatic coastal dunes at Jurien Bay Marine Park, Western Australia's Turquoise Coast"
             fill
             className="object-cover"
             priority
           />
           <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg">
-            <p className="text-sm font-medium text-slate-900">Jurien Bay Marine Park — sea lions swim here. Voluntarily. With tourists.</p>
+            <p className="text-sm font-medium text-slate-900">Jurien Bay Marine Park — where wild sea lions swim with visitors in crystal turquoise waters</p>
           </div>
         </div>
 
@@ -114,13 +114,13 @@ export default function PerthToJurienBayTurquoiseCoast2026() {
           {/* Image */}
           <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden my-10">
             <Image
-              src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-              alt="Fresh lobster from Cervantes WA - the Lobster Shack is one of WA's best seafood experiences"
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+              alt="Fresh Western Rock Lobster at Cervantes Lobster Shack - famous seafood experience on WA's Turquoise Coast"
               fill
               className="object-cover"
             />
             <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg">
-              <p className="text-sm font-medium text-slate-900">Cervantes lobster — freshest you&apos;ll eat anywhere in Australia</p>
+              <p className="text-sm font-medium text-slate-900">Western Rock Lobster — Cervantes is the lobster capital of WA</p>
             </div>
           </div>
 
