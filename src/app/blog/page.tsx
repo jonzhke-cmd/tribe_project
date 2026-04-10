@@ -20,7 +20,7 @@ export default function BlogLanding() {
       excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
       date: "April 5, 2026",
       category: "Day Trips",
-      image: "/swan-valley-winery-sunset.jpg"
+      image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80"
     },
     {
       id: "perth-to-esperance-road-trip-2026",
