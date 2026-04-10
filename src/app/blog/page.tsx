@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [    {
       id: "swan-valley-wine-food-trail-perth",
-      title: "Swan Valley Wine & Food Trail: Perth's Best Day Trip Right Now",
+      title: "🚨 SWAN VALLEY WINE TRAIL: Perth's #1 Day Trip (Updated 2026)",
       excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
       date: "April 5, 2026",
       category: "Day Trips",
