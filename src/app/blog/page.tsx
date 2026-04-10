@@ -16,83 +16,11 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [    {
       id: "swan-valley-wine-food-trail-perth",
-      title: "🚨 SWAN VALLEY WINE TRAIL: Perth's #1 Day Trip (Updated 2026)",
-      excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
+      title: "🚨 TEST: Swan Valley Wine Trail (SHOULD BE VISIBLE)",
+      excerpt: "TEST: Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region.",
       date: "April 5, 2026",
       category: "Day Trips",
       image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80"
-    },
-    {
-      id: "perth-to-esperance-road-trip-2026",
-      title: "Perth to Esperance: The Road Trip That's Breaking TikTok in 2026",
-      excerpt: "Discover why Lucky Bay at Cape Le Grand National Park has gone viral on TikTok. Complete guide to the Perth to Esperance road trip, including car rental tips, must-see stops, and 2026 travel insights.",
-      date: "April 8, 2026",
-      category: "Viral Destinations",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
-    },
-    {
-      id: "perth-airport-car-rental-tips-2026",
-      title: "Perth airport car rental tips",
-      excerpt: "Discover the best of Western Australia with this perth airport car rental tips. Perfect for international visitors and locals alike, this guide covers everything you need for an unforgettable road trip experience in 2026.",
-      date: "April 7, 2026",
-      category: "Road Trips",
-      image: "/perth-airport-car-rental-sign.jpg"
-    },
-    {
-      id: "perth-to-broome-highway-1-road-trip",
-      title: "Perth to Broome: The Drive That Will Change How You See Australia",
-      excerpt: "2,200km of WA's most spectacular coast — pindan cliffs, Ningaloo Reef, whale sharks, and Cable Beach sunsets. The epic Highway 1 road trip everyone is talking about in 2026.",
-      date: "April 7, 2026",
-      category: "Epic Road Trips",
-      image: "/broome-wa-coast.jpg"
-    },
-    {
-      id: "albany-coastal-cliffs-2026",
-      title: "Albany's Coastal Cliffs: Why This is WA's Best Road Trip (And Everyone's Missing It)",
-      excerpt: "Forget Margaret River. Albany's coastline makes everything else look like a practice run. Local's guide to the Great Southern route with proper WA road trip advice.",
-      date: "April 7, 2026",
-      category: "Great Southern Road Trips",
-      image: "/albany-cliff-view.jpg"
-    },
-    {
-      id: "pinnacles-desert-day-trip-perth",
-      title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
-      excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
-      date: "April 5, 2026",
-      category: "Day Trips",
-      image: "/pinnacles-user-photo.jpg"
-    },
-    {
-      id: "perth-farm-stays-families",
-      title: "Why Perth Families Are Ditching Hotels for Farm Stays in 2026",
-      excerpt: "Forget the beachside apartment. The hottest family travel trend in WA? Farm stays near Perth — from strawberry picking in Chittering to vineyard cottages in Jarrahdale.",
-      date: "April 4, 2026",
-      category: "Family Travel",
-      image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=800&auto=format&fit=crop&q=80"
-    },
-    {
-      id: "perth-coral-coast-road-trip-2026",
-      title: "Perth to the Coral Coast: The Road Trip Everyone is Talking About in 2026",
-      excerpt: "International visitors are flooding into WA via Qantas's new direct European routes — and they're all heading north. Here's the definitive Coral Coast road trip guide.",
-      date: "April 4, 2026",
-      category: "Road Trips",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
-    },
-    {
-      id: "margaret-river-road-trip",
-      title: "The Ultimate Margaret River Weekend Drive",
-      excerpt: "Everything you need to know about driving from Perth to Margaret River. Best stops, wineries, and coastal views.",
-      date: "April 1, 2026",
-      category: "Road Trips",
-      image: "/margaret-river.jpg"
-    },
-    {
-      id: "perth-airport-rental-guide",
-      title: "How to Navigate Perth Airport Car Rentals",
-      excerpt: "Skip the counter queues. Our guide to the fastest, most stress-free way to collect your rental car at Perth T1-T4.",
-      date: "March 28, 2026",
-      category: "Travel Tips",
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop"
     }
   ];
 
