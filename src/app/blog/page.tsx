@@ -1,4 +1,4 @@
-// ULTRA-SIMPLE BLOG LISTING - GUARANTEED TO WORK
+// CLOUDFLARE PAGES BLOG LISTING - GUARANTEED TO WORK
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
@@ -9,18 +9,21 @@ export default function BlogPage() {
       title: "🦢 Swan Valley Wine & Food Trail: Perth's Best Day Trip in 2026",
       date: "April 11, 2026",
       excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
+      new: true,
     },
     {
       slug: "perth-to-jurien-bay-turquoise-coast-2026",
       title: "Perth to Jurien Bay: The Turquoise Coast Drive Everyone Will Be Doing in 2026",
       date: "April 9, 2026",
       excerpt: "Swim with wild sea lions, sandboard the world's tallest coastal dunes, and eat lobster straight off the boat.",
+      new: false,
     },
     {
       slug: "perth-to-esperance-road-trip-2026",
       title: "Perth to Esperance: The Road Trip That's Breaking TikTok in 2026",
       date: "April 8, 2026",
       excerpt: "Lucky Bay has the whitest sand in Australia, kangaroos that sunbathe on the beach, and water so turquoise it looks photoshopped.",
+      new: false,
     },
   ];
 
@@ -32,12 +35,12 @@ export default function BlogPage() {
         
         <div className="space-y-8">
           {articles.map((article) => (
-            <div key={article.slug} className="border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition">
+            <div key={article.slug} className={`border rounded-2xl p-6 hover:shadow-lg transition ${article.new ? 'border-red-300 bg-red-50' : 'border-slate-200'}`}>
               <div className="flex items-center gap-3 mb-3">
-                {article.slug === "swan-valley-wine-food-trail-perth" && (
-                  <span className="px-3 py-1 bg-red-100 text-red-800 text-sm font-bold rounded-full">NEW</span>
+                {article.new && (
+                  <span className="px-3 py-1 bg-red-500 text-white text-sm font-bold rounded-full">🔥 NEWEST</span>
                 )}
-                <span className="text-slate-500">{article.date}</span>
+                <span className="text-slate-500 font-bold">{article.date}</span>
               </div>
               
               <h2 className="text-2xl font-bold text-slate-900 mb-3">
@@ -55,10 +58,13 @@ export default function BlogPage() {
           ))}
         </div>
         
-        <div className="mt-12 p-6 bg-blue-50 rounded-2xl">
-          <h3 className="text-lg font-bold text-slate-900 mb-2">✅ Blog Fixed</h3>
+        <div className="mt-12 p-6 bg-green-50 border border-green-200 rounded-2xl">
+          <h3 className="text-lg font-bold text-slate-900 mb-2">✅ Cloudflare Pages Deployment</h3>
           <p className="text-slate-600">
-            This is a fresh, simple blog listing. The Swan Valley article (April 11, 2026) should now appear at the top.
+            This site is deployed on Cloudflare Pages. The Swan Valley article (April 11, 2026) should appear at the top with a "NEWEST" badge.
+          </p>
+          <p className="text-slate-600 mt-2">
+            <strong>Site URL:</strong> https://autotrip.pages.dev
           </p>
         </div>
       </div>
