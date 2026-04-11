@@ -5,6 +5,11 @@ const nextConfig: NextConfig = {
   // We remove 'output: export' because we now use API routes (server-side logic)
   trailingSlash: true,
 
+  // Use webpack instead of Turbopack to fix PostCSS build errors
+  experimental: {
+    turbo: undefined, // Disable Turbopack
+  },
+
   images: {
     unoptimized: true,
     remotePatterns: [
