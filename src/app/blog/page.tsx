@@ -14,13 +14,54 @@ export const metadata: Metadata = {
 };
 
 export default function BlogLanding() {
-  const featuredPosts = [    {
+  const featuredPosts = [
+    {
       id: "swan-valley-wine-food-trail-perth",
-      title: "🚨 TEST: Swan Valley Wine Trail (SHOULD BE VISIBLE)",
-      excerpt: "TEST: Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region.",
+      title: "Swan Valley Wine & Food Trail: Perth's Best Day Trip Right Now",
+      excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
       date: "April 5, 2026",
       category: "Day Trips",
       image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      id: "perth-to-esperance-road-trip-2026",
+      title: "Perth to Esperance: The Road Trip That's Breaking TikTok in 2026",
+      excerpt: "Discover why Lucky Bay at Cape Le Grand National Park has gone viral on TikTok. Complete guide to the Perth to Esperance road trip, including car rental tips, must-see stops, and 2026 travel insights.",
+      date: "April 8, 2026",
+      category: "Viral Destinations",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      id: "perth-airport-car-rental-tips-2026",
+      title: "Perth airport car rental tips",
+      excerpt: "Discover the best of Western Australia with this perth airport car rental tips. Perfect for international visitors and locals alike, this guide covers everything you need for an unforgettable road trip experience in 2026.",
+      date: "April 7, 2026",
+      category: "Road Trips",
+      image: "/perth-airport-car-rental-sign.jpg"
+    },
+    {
+      id: "perth-to-broome-highway-1-road-trip",
+      title: "Perth to Broome: The Drive That Will Change How You See Australia",
+      excerpt: "2,200km of WA's most spectacular coast — pindan cliffs, Ningaloo Reef, whale sharks, and Cable Beach sunsets. The epic Highway 1 road trip everyone is talking about in 2026.",
+      date: "April 7, 2026",
+      category: "Epic Road Trips",
+      image: "/broome-wa-coast.jpg"
+    },
+    {
+      id: "albany-coastal-cliffs-2026",
+      title: "Albany's Coastal Cliffs: Why This is WA's Best Road Trip (And Everyone's Missing It)",
+      excerpt: "Forget Margaret River. Albany's coastline makes everything else look like a practice run. Local's guide to the Great Southern route with proper WA road trip advice.",
+      date: "April 7, 2026",
+      category: "Great Southern Road Trips",
+      image: "/albany-cliff-view.jpg"
+    },
+    {
+      id: "pinnacles-desert-day-trip-perth",
+      title: "Perth to Pinnacles: The Perfect Day Trip Drive in 2026",
+      excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
+      date: "April 5, 2026",
+      category: "Day Trips",
+      image: "/pinnacles-user-photo.jpg"
     }
   ];
 
