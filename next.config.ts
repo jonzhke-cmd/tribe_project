@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
 
   // Use webpack instead of Turbopack to fix PostCSS build errors
   experimental: {
-    turbo: undefined, // Disable Turbopack
+    turbo: false, // Disable Turbopack (use false instead of undefined)
   },
 
   images: {
