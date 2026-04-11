@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "perth-to-monkey-mia-shark-bay-2026",
+    title: "Perth to Monkey Mia & Shark Bay: The Road Trip Going Viral in 2026",
+    excerpt: "Wild dolphins that walk themselves out of the ocean to meet you. Shell Beach made entirely of tiny white shells. Stromatolites — the oldest living things on Earth. Shark Bay is WA's most extraordinary road trip, and it's blowing up on TikTok right now.",
+    date: "April 11, 2026",
+    category: "Coral Coast Road Trips",
+    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "swan-valley-wine-food-trail-perth",
     title: "🦢 Swan Valley Wine & Food Trail: Perth's Best Day Trip in 2026",
     excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better. Artisan chocolates, craft breweries, boutique wineries, and stunning autumn colours.",
