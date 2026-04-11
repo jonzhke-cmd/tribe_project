@@ -49,151 +49,163 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Fleet (SIXT-style Horizontal Scroll/Grid) */}
-      <section className="bg-white py-24">
+      {/* NEW BLOG BANNER */}
+      <section className="bg-gradient-to-r from-blue-50 to-green-50 py-8 border-y border-blue-200">
         <div className="container mx-auto px-6 lg:px-8">
-          <div className="flex flex-col items-end justify-between gap-4 border-b border-slate-100 pb-8 md:flex-row md:items-end">
-            <div className="max-w-2xl">
-              <h2 className="text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">
-                The AutoTrip Selection.
-              </h2>
-              <p className="mt-4 text-lg text-slate-600">
-                Choose from a curated range of well-maintained vehicles, from economical city cars to spacious family movers.
-              </p>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">🚀 NEW: Latest Road Trip Guides</h3>
+              <p className="text-slate-600">Monkey Mia, Swan Valley, and all new articles now available</p>
             </div>
-            <Link href="/fleet" className="group flex items-center gap-2 font-semibold text-primary transition">
-              View all vehicles <ChevronRight className="h-4 w-4 transition group-hover:translate-x-1" />
-            </Link>
+            <div className="flex gap-4">
+              <a 
+                href="/new-blog/" 
+                className="px-6 py-3 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition"
+              >
+                View All Articles →
+              </a>
+              <a 
+                href="/blog/perth-to-monkey-mia-shark-bay-2026/" 
+                className="px-6 py-3 border-2 border-blue-600 text-blue-600 font-bold rounded-full hover:bg-blue-50 transition"
+              >
+                Read Monkey Mia Article
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose AutoTrip */}
+      <section className="py-24 bg-white">
+        <div className="container mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Perth Chooses AutoTrip</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              We're not another faceless rental chain. We're Perth locals who understand WA roads better than anyone.
+            </p>
           </div>
 
-          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-3">
+            <div className="p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-6">
+                <ShieldCheck className="h-8 w-8 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Local Expertise</h3>
+              <p className="text-slate-600">
+                30+ years operating in Perth means we know every shortcut, every scenic route, and every road condition you'll encounter.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-6">
+                <Zap className="h-8 w-8 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Airport Priority</h3>
+              <p className="text-slate-600">
+                Our shuttle meets every flight. No queues, no paperwork delays — just your keys and a quick vehicle orientation.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-3xl border border-slate-200 hover:shadow-xl transition">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-6">
+                <Star className="h-8 w-8 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Curated Fleet</h3>
+              <p className="text-slate-600">
+                Every vehicle is selected for WA conditions. From compact city cars to family SUVs that handle gravel roads with ease.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Fleet */}
+      <section className="py-24 bg-slate-50">
+        <div className="container mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Our Perth Fleet</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Late-model vehicles maintained to the highest standards. Perfect for everything from city driving to outback adventures.
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-3">
             {fleet.slice(0, 3).map((car) => (
-              <div key={car.name} className="group flex flex-col overflow-hidden rounded-[2.5rem] bg-card-bg transition hover:bg-white hover:shadow-xl hover:shadow-slate-200/50">
-                <div className="relative aspect-[16/10] overflow-hidden p-8">
+              <div key={car.id} className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+                <div className="relative h-64">
                   <Image
-                    src={car.image || "/car-hero.svg"}
+                    src={car.image}
                     alt={car.name}
                     fill
-                    className="object-contain p-8 transition duration-500 group-hover:scale-105"
+                    className="object-cover"
                   />
                 </div>
-                <div className="flex flex-col p-8 pt-0">
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm font-semibold tracking-widest uppercase text-slate-500">{car.type}</span>
-                    <div className="flex items-center gap-1">
-                      <Star className="h-3 w-3 fill-primary text-primary" />
-                      <span className="text-xs font-bold">4.9</span>
-                    </div>
-                  </div>
-                  <h3 className="mt-2 text-2xl font-bold text-slate-950">{car.name}</h3>
-                  <div className="mt-6 flex items-center justify-between border-t border-slate-200 pt-6">
+                <div className="p-8">
+                  <div className="flex justify-between items-start mb-4">
                     <div>
-                      <span className="text-sm text-slate-500">From</span>
-                      <div className="text-2xl font-black text-slate-950">${car.price}<span className="text-sm font-normal">/day</span></div>
+                      <h3 className="text-2xl font-bold text-slate-900">{car.name}</h3>
+                      <p className="text-slate-500">{car.category}</p>
                     </div>
-                    <Link href="/book" className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-950 text-white transition group-hover:bg-primary">
-                      <ArrowRight className="h-5 w-5" />
-                    </Link>
+                    <div className="text-right">
+                      <div className="text-3xl font-bold text-primary">${car.price}/day</div>
+                      <p className="text-sm text-slate-500">incl. insurance</p>
+                    </div>
                   </div>
+                  <ul className="space-y-2 mb-6">
+                    {car.features.slice(0, 3).map((feature, idx) => (
+                      <li key={idx} className="flex items-center gap-2 text-slate-600">
+                        <div className="w-2 h-2 rounded-full bg-primary" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                  <Link
+                    href="/book"
+                    className="block w-full text-center py-3 bg-slate-900 text-white font-bold rounded-xl hover:bg-slate-800 transition"
+                  >
+                    Book This Vehicle
+                  </Link>
                 </div>
               </div>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* Modern Trust Section */}
-      <section className="bg-dark-bg py-24 text-white">
-        <div className="container mx-auto px-6 lg:px-8">
-          <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
-            <div className="relative order-2 lg:order-1">
-              <div className="absolute -inset-4 rounded-[3rem] bg-primary/20 blur-3xl" />
-              <div className="glass-card relative overflow-hidden rounded-[3rem] p-4">
-                <Image
-                  src="/airport-transfer-new.jpg"
-                  alt="Airport Transfer Service"
-                  width={960}
-                  height={640}
-                  className="rounded-[2.5rem] object-cover aspect-[4/3]"
-                />
-              </div>
-            </div>
-            
-            <div className="order-1 space-y-8 lg:order-2">
-              <span className="text-sm font-bold uppercase tracking-[0.3em] text-primary">Service Excellence</span>
-              <h2 className="text-5xl font-bold tracking-tight sm:text-6xl">
-                Arrive Perth. <br /> Drive AutoTrip.
-              </h2>
-              <p className="text-lg text-slate-400">
-                Our airport service is uniquely streamlined. No counters, no long queues. Our concierge shuttle meets you at the terminal and has you behind the wheel within 15 minutes.
-              </p>
-              
-              <div className="grid gap-6 sm:grid-cols-2">
-                {[
-                  { icon: ShieldCheck, title: "24/7 Roadside", text: "Total peace of mind across WA." },
-                  { icon: Zap, title: "Fast Handover", text: "Keys in hand in under 15 minutes." },
-                  { icon: Plane, title: "T1-T4 Service", text: "Free shuttle to all terminals." },
-                  { icon: Star, title: "Premium Fleet", text: "Newer models, clean and ready." },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/5">
-                      <item.icon className="h-5 w-5 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold">{item.title}</h4>
-                      <p className="text-sm text-slate-500">{item.text}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Promo Video Section */}
-      <section className="bg-white py-24">
-        <div className="container mx-auto px-6 lg:px-8">
-          <div className="flex flex-col items-center text-center mb-12">
-            <span className="text-sm font-bold uppercase tracking-[0.2em] text-primary">See AutoTrip in Action</span>
-            <h2 className="mt-4 text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">
-              Your Perth Adventure Starts Here.
-            </h2>
-          </div>
-          <div className="relative mx-auto max-w-4xl overflow-hidden rounded-[2.5rem] shadow-2xl shadow-slate-200">
-            <video
-              className="w-full"
-              controls
-              autoPlay={false}
-              playsInline
-              poster="/perth-hero.jpg"
+          <div className="text-center mt-12">
+            <Link
+              href="/fleet"
+              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-slate-900 text-slate-900 font-bold rounded-full hover:bg-slate-900 hover:text-white transition"
             >
-              <source src="/autotrip-promo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+              View Full Fleet <ArrowRight className="h-5 w-5" />
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-white py-24">
+      {/* Travel Guide CTA */}
+      <section className="py-24 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
         <div className="container mx-auto px-6 lg:px-8">
-          <div className="relative overflow-hidden rounded-[4rem] bg-primary px-8 py-24 text-center text-white">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.2),_transparent_70%)]" />
-            <h2 className="relative text-5xl font-black tracking-tight sm:text-7xl">
-              Ready to explore?
-            </h2>
-            <p className="relative mt-6 text-xl font-medium text-white/90">
-              Book your car today and get an instant quote for your Perth trip.
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-6">Explore Western Australia</h2>
+            <p className="text-xl text-slate-300 mb-10">
+              Our travel guides are written by Perth locals who've driven every road in WA. Get honest advice on the best routes, hidden gems, and practical tips for your road trip.
             </p>
-            <div className="relative mt-12 flex justify-center gap-4">
-              <Link href="/book" className="flex h-16 items-center justify-center rounded-3xl bg-white px-10 font-bold text-primary transition hover:scale-105">
-                Book Your Ride
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/new-blog/"
+                className="px-8 py-4 bg-white text-slate-900 font-bold rounded-full hover:bg-slate-100 transition inline-flex items-center justify-center gap-2"
+              >
+                🚀 View Latest Articles <ChevronRight className="h-5 w-5" />
               </Link>
-              <Link href="/contact" className="flex h-16 items-center justify-center rounded-3xl border border-white/30 bg-white/10 px-10 font-bold text-white backdrop-blur transition hover:bg-white/20">
-                Contact Us
+              <Link
+                href="/blog/perth-to-monkey-mia-shark-bay-2026/"
+                className="px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition"
+              >
+                Read Monkey Mia Guide
               </Link>
             </div>
+            <p className="mt-8 text-slate-400 text-sm">
+              All articles include practical driving advice, fuel stops, accommodation tips, and local insights.
+            </p>
           </div>
         </div>
       </section>
