@@ -2,74 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting to AutoTrip Blog</title>
-    <meta http-equiv="refresh" content="3;url=/blog-static.html">
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #f8fafc, #f1f5f9);
-            margin: 0;
-            padding: 20px;
-        }
-        .card {
-            background: white;
-            border-radius: 20px;
-            padding: 3rem;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            text-align: center;
-            max-width: 500px;
-        }
-        h1 {
-            color: #1e40af;
-            margin-bottom: 1rem;
-            font-size: 2rem;
-        }
-        p {
-            color: #4b5563;
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-        .spinner {
-            width: 40px;
-            height: 40px;
-            border: 4px solid #e5e7eb;
-            border-top: 4px solid #3b82f6;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 2rem auto;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .link {
-            display: inline-block;
-            margin-top: 1rem;
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .link:hover { text-decoration: underline; }
-    </style>
+    <meta http-equiv="refresh" content="0; url=/blog-listing-static.html">
+    <title>Redirecting to Blog Listing</title>
 </head>
 <body>
-    <div class="card">
-        <h1>🔄 Redirecting to Blog</h1>
-        <p>The AutoTrip blog listing is currently being upgraded. You're being redirected to the latest version with all articles.</p>
-        
-        <div class="spinner"></div>
-        
-        <p>If you're not redirected automatically in 3 seconds:</p>
-        <a href="/blog-static.html" class="link">Click here to view the blog →</a>
-        
-        <p style="margin-top: 2rem; font-size: 0.875rem; color: #6b7280;">
-            The main blog listing is experiencing technical issues. This temporary page ensures you can still access all content.
-        </p>
-    </div>
+    <p>Redirecting to <a href="/blog-listing-static.html">AutoTrip Blog Listing</a>...</p>
+    <script>
+        window.location.href = "/blog-listing-static.html";
+    </script>
 </body>
 </html>
