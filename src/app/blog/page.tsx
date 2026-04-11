@@ -26,6 +26,14 @@ export default function BlogLanding() {
       image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80"
     },
     {
+      id: "perth-to-jurien-bay-turquoise-coast-2026",
+      title: "Perth to Jurien Bay: The Turquoise Coast Drive Everyone Will Be Doing in 2026",
+      excerpt: "Discover WA's Turquoise Coast — crystal-clear waters, sea lion colonies, and lobster shacks. Perfect weekend road trip from Perth with 2026 local insights.",
+      date: "April 9, 2026",
+      category: "Coastal Drives",
+      image: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&auto=format&fit=crop&q=80"
+    },
+    {
       id: "perth-to-esperance-road-trip-2026",
       title: "Perth to Esperance: The Road Trip That's Breaking TikTok in 2026",
       excerpt: "Discover why Lucky Bay at Cape Le Grand National Park has gone viral on TikTok. Complete guide to the Perth to Esperance road trip, including car rental tips, must-see stops, and 2026 travel insights.",
