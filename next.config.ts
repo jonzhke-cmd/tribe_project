@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'standalone',
+  // Remove standalone output for Vercel compatibility
   images: {
-    unoptimized: true, // Required for Cloudflare Pages
+    unoptimized: false, // Enable image optimization for Vercel
   },
 };
 
