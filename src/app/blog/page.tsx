@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     "Explore Perth and Western Australia with AutoTrip's travel guides. Road trip tips, national park guides, and local driving advice.",
 };
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 const articles = [
   {
     slug: "swan-valley-wine-food-trail-perth",
@@ -16,7 +19,7 @@ const articles = [
     excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better. Artisan chocolates, craft breweries, boutique wineries, and stunning autumn colours.",
     date: "April 11, 2026",
     category: "Day Trips",
-    image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80&v=20260411",
   },
   {
     slug: "perth-to-jurien-bay-turquoise-coast-2026",
@@ -24,7 +27,7 @@ const articles = [
     excerpt: "Swim with wild sea lions, sandboard the world's tallest coastal dunes, and eat lobster straight off the boat. The Turquoise Coast is WA's best-kept secret — and it's only 3 hours from Perth Airport.",
     date: "April 9, 2026",
     category: "Turquoise Coast Road Trips",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80&v=20260411",
   },
   {
     slug: "perth-to-esperance-road-trip-2026",
@@ -32,7 +35,7 @@ const articles = [
     excerpt: "Lucky Bay has the whitest sand in Australia, kangaroos that sunbathe on the beach, and water so turquoise it looks photoshopped. This is WA's most underrated drive — and travellers are finally discovering it.",
     date: "April 8, 2026",
     category: "Road Trips",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80&v=20260411",
   },
   {
     slug: "perth-airport-car-rental-tips-2026",
@@ -40,7 +43,7 @@ const articles = [
     excerpt: "Discover the best of Western Australia with these Perth airport car rental tips. Perfect for international visitors and locals alike.",
     date: "April 7, 2026",
     category: "Road Trips",
-    image: "/perth-airport-car-rental-sign.jpg",
+    image: "/perth-airport-car-rental-sign.jpg?v=20260411",
   },
   {
     slug: "perth-to-broome-highway-1-road-trip",
@@ -48,7 +51,7 @@ const articles = [
     excerpt: "2,200km of WA's most spectacular coast — pindan cliffs, Ningaloo Reef, whale sharks, and Cable Beach sunsets. The epic Highway 1 road trip everyone is talking about in 2026.",
     date: "April 7, 2026",
     category: "Epic Road Trips",
-    image: "/broome-wa-coast.jpg",
+    image: "/broome-wa-coast.jpg?v=20260411",
   },
   {
     slug: "albany-coastal-cliffs-2026",
@@ -56,7 +59,7 @@ const articles = [
     excerpt: "Forget Margaret River. Albany's coastline makes everything else look like a practice run. Local's guide to the Great Southern route.",
     date: "April 7, 2026",
     category: "Great Southern Road Trips",
-    image: "/albany-cliff-view.jpg",
+    image: "/albany-cliff-view.jpg?v=20260411",
   },
   {
     slug: "pinnacles-desert-day-trip-perth",
@@ -64,7 +67,7 @@ const articles = [
     excerpt: "The Pinnacles Desert is WA's most otherworldly landmark — and it's just 2.5 hours from Perth Airport. Here's exactly how to do the perfect day trip by rental car.",
     date: "April 5, 2026",
     category: "Day Trips",
-    image: "/pinnacles-user-photo.jpg",
+    image: "/pinnacles-user-photo.jpg?v=20260411",
   },
 ];
 
