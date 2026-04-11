@@ -1,7 +1,7 @@
 // Minimal PostCSS config to fix build error
 const config = {
   plugins: {
-    tailwindcss: {},
+    '@tailwindcss/postcss': {},
     autoprefixer: {},
   },
 };
