@@ -34,7 +34,7 @@ export default function SwanValleyPost() {
               Day Trips
             </span>
             <div className="flex items-center gap-1.5">
-              <Calendar className="h-4 w-4" /> April 5, 2026
+              <Calendar className="h-4 w-4" /> April 11, 2026
             </div>
             <div className="flex items-center gap-1.5">
               <Clock className="h-4 w-4" /> 6 min read

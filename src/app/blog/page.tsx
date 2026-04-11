@@ -18,18 +18,10 @@ export const metadata: Metadata = {
 export default function BlogLanding() {
   const featuredPosts = [
     {
-      id: "test-article-debug",
-      title: "🚨 DEBUG TEST ARTICLE - PLEASE IGNORE",
-      excerpt: "This is a test article to debug the blog listing. If you see this, the blog listing is working.",
-      date: "April 11, 2026",
-      category: "Debug",
-      image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80"
-    },
-    {
       id: "swan-valley-wine-food-trail-perth",
-      title: "🦢 SWAN VALLEY WINE TRAIL: #1 Day Trip from Perth (VERIFY THIS APPEARS)",
-      excerpt: "TEST: Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
-      date: "April 5, 2026",
+      title: "🦢 Swan Valley Wine & Food Trail: Perth's Best Day Trip in 2026",
+      excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better. Artisan chocolates, craft breweries, boutique wineries.",
+      date: "April 11, 2026",
       category: "Day Trips",
       image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80"
     },
