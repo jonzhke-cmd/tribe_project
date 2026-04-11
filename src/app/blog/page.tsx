@@ -5,9 +5,11 @@ import { ChevronRight, Calendar, MapPin } from "lucide-react";
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
+export const fetchCache = 'force-no-store';
+export const runtime = 'nodejs';
 
 export const metadata: Metadata = {
-  title: "Perth Travel Guide",
+  title: "Perth Travel Guide | AutoTrip Perth",
   description:
     "Explore Perth and Western Australia with AutoTrip's travel guides. Road trip tips, national park guides, and local driving advice.",
   alternates: { canonical: "https://autotrip-five.vercel.app/blog" },
@@ -25,8 +27,8 @@ export default function BlogLanding() {
     },
     {
       id: "swan-valley-wine-food-trail-perth",
-      title: "Swan Valley Wine & Food Trail: Perth's Best Day Trip Right Now",
-      excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
+      title: "🦢 SWAN VALLEY WINE TRAIL: #1 Day Trip from Perth (VERIFY THIS APPEARS)",
+      excerpt: "TEST: Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",
       date: "April 5, 2026",
       category: "Day Trips",
       image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80"
