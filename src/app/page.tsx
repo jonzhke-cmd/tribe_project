@@ -211,4 +211,4 @@ export default function Home() {
       </section>
     </main>
   );
-}
+}// Force Vercel rebuild - Sun Apr 12 15:22:55 UTC 2026
