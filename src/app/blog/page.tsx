@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "kalbarri-national-park-road-trip-2026",
+    title: "Kalbarri National Park: The Road Trip That Will Make Your Jaw Drop (6 Hours from Perth)",
+    excerpt: "Stand on the Kalbarri Skywalk 100m above the Murchison River gorge. Nature's Window, Z-Bend, dramatic coastal cliffs — this is WA's most dramatic road trip and it's absolutely blowing up on TikTok in 2026.",
+    date: "April 13, 2026",
+    category: "WA Gorge Road Trips",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "perth-to-monkey-mia-shark-bay-2026",
     title: "Perth to Monkey Mia & Shark Bay: The Road Trip Going Viral in 2026",
     excerpt: "Wild dolphins that walk themselves out of the ocean to meet you. Shell Beach made entirely of tiny white shells. Stromatolites — the oldest living things on Earth. Shark Bay is WA's most extraordinary road trip, and it's blowing up on TikTok right now.",
