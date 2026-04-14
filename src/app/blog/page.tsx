@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "ningaloo-reef-whale-shark-exmouth-2026",
+    title: "Ningaloo Reef Whale Shark Season 2026: The WA Road Trip Everyone is Losing Their Mind Over",
+    excerpt: "April to July is whale shark season at Ningaloo Reef — and swimming with the world's largest fish is every bit as mind-blowing as TikTok makes it look. Here's your complete guide to driving from Perth to Exmouth in 2026.",
+    date: "April 14, 2026",
+    category: "Coral Coast Road Trips",
+    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "kalbarri-national-park-road-trip-2026",
     title: "Kalbarri National Park: The Road Trip That Will Make Your Jaw Drop (6 Hours from Perth)",
     excerpt: "Stand on the Kalbarri Skywalk 100m above the Murchison River gorge. Nature's Window, Z-Bend, dramatic coastal cliffs — this is WA's most dramatic road trip and it's absolutely blowing up on TikTok in 2026.",
