@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "rottnest-island-day-trip-quokkas-2026",
+    title: "Rottnest Island Day Trip: Your 2026 Guide to Quokkas, Beaches & Bike Adventures",
+    excerpt: "Rottnest Island is Perth's island paradise just 30 minutes by ferry. Complete guide to quokka selfies, pristine beaches, bike trails, and making the most of your day trip from Perth — including why you need a car to get to the ferry terminal.",
+    date: "April 15, 2026",
+    category: "Island Getaways",
+    image: "https://images.unsplash.com/photo-1589552950456-75eeaf5c5a30?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "ningaloo-reef-whale-shark-exmouth-2026",
     title: "Ningaloo Reef Whale Shark Season 2026: The WA Road Trip Everyone is Losing Their Mind Over",
     excerpt: "April to July is whale shark season at Ningaloo Reef — and swimming with the world's largest fish is every bit as mind-blowing as TikTok makes it look. Here's your complete guide to driving from Perth to Exmouth in 2026.",
