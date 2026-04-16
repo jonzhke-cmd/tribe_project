@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "valley-of-the-giants-denmark-wa-2026",
+    title: "Valley of the Giants & Denmark: The Ancient Forest Road Trip That WA Has Been Hiding From You",
+    excerpt: "Walk 40 metres above 400-year-old tingle trees in Walpole's Valley of the Giants, swim at the stunning Greens Pool in Denmark, and eat at one of WA's best regional restaurants. This Great Southern road trip is 5.5 hours from Perth and worth every kilometre.",
+    date: "April 16, 2026",
+    category: "Great Southern Road Trips",
+    image: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "rottnest-island-day-trip-quokkas-2026",
     title: "Rottnest Island Day Trip: Your 2026 Guide to Quokkas, Beaches & Bike Adventures",
     excerpt: "Rottnest Island is Perth's island paradise just 30 minutes by ferry. Complete guide to quokka selfies, pristine beaches, bike trails, and making the most of your day trip from Perth — including why you need a car to get to the ferry terminal.",
