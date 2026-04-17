@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "fremantle-day-trip-from-perth-2026",
+    title: "Fremantle: Perth's Most Soulful Day Trip Is 30 Minutes From the Airport",
+    excerpt: "Markets since 1897, a UNESCO World Heritage prison, the craft brewery that changed Australian beer, and the freshest fish and chips in WA. Fremantle is 30 minutes south of Perth Airport — and most visitors fly straight past it.",
+    date: "April 17, 2026",
+    category: "Day Trips",
+    image: "https://images.unsplash.com/photo-1589556264800-08ae9e6cdcb8?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "valley-of-the-giants-denmark-wa-2026",
     title: "Valley of the Giants & Denmark: The Ancient Forest Road Trip That WA Has Been Hiding From You",
     excerpt: "Walk 40 metres above 400-year-old tingle trees in Walpole's Valley of the Giants, swim at the stunning Greens Pool in Denmark, and eat at one of WA's best regional restaurants. This Great Southern road trip is 5.5 hours from Perth and worth every kilometre.",
